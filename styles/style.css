@@ -1,0 +1,50 @@
+body {
+    font-family: 'EB Garamond', serif;
+}
+
+/* nav */
+.btn-free {
+    background: #B68C5A!important;
+    color: white !important;
+    
+    
+}
+
+/* banner */
+@media screen and (min-width:768px) {
+    .banner-text {
+        width: 692px;
+        height: 342px;
+        margin-left: 22px;
+        margin-bottom: 15px;
+    }
+    .hr-line{
+        margin-left: 150px;
+    }
+    
+}
+
+@media screen and (max-width: 576px) {
+    .banner{
+        width: 100%;
+        align-items: center;
+    } 
+    .banner-text{
+        width:75%;
+        font-weight: 50px!important;
+        font-size: 16px!important;
+    }
+    .banner-title{
+        font-size: large!important;
+    }
+    .banner-info{
+        font-size: smaller;
+    } 
+    .hr-line{
+        margin-left: 40px;
+    }
+    
+}
+.mod-col{
+    background-color: #F3F3F3;
+}
